@@ -1,0 +1,59 @@
+#gameboard h1 {
+    margin: 10px;
+    padding: 5px;
+}
+#gameboard table {
+    margin: 10px;
+    border-collapse: collapse;
+}
+#gameboard td {
+    border: 1px solid black;
+}
+#gameboard input.button {
+    margin: 10px;
+    padding: 2px;
+}
+/*
+#statistics table
+{
+    margin: 10px;
+    padding: 0;
+    list-style-type: none;
+}
+*/
+#statistics td {
+    border-style: none;
+    padding-right: 10px;
+}
+.box {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+}
+.selected {
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px #FFE600;
+    -webkit-box-shadow: 5px 5px 5px #FFE600;
+    -moz-box-shadow: 5px 5px 5px #FFE600;
+}
+.red {
+    background-color: #ff0000;
+}
+.orange {
+    background-color: #ffa500;
+}
+.yellow {
+    background-color: #ffff00;
+}
+.green {
+    background-color: #008000;
+}
+.blue {
+    background-color: #0000ff;
+}
+.indigo {
+    background-color: #4B0082;
+}
+.violet {
+    background-color: #ee82ee;
+}

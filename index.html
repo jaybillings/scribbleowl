@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+   <title>ScribbleOwl Creative - Pick your poison</title>
+   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.10.0/build/cssreset/cssreset-min.css">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+   <script type="text/javascript" src="js/play.js">
+
+   <script type="text/javascript">
+      $(function() {
+         playGame(false);
+         $("#rp_menu").hover(
+            function() {
+               $("#rp_sub").show();
+            },
+            function() {
+               $("#rp_sub").hide();
+            });
+      });
+   </script>
+</head>
+<body>
+   <header>
+      <h1><a href="http://www.scribbleowl.com">Scribble Owl Creations</a></h1>
+      <nav>
+         <ul>
+            <li class="border"><a href="#">Annotated Portfolio</a></li>
+            <li class="border"><a href="#" style="color:#eeeedd">HT Log Cleaner</a></li>
+            <li class="border" id="rp_menu">Roleplay Blogs
+               <ul id="rp_sub">
+                  <li>
+                     <a href="http://characters.scribbleowl.com/doubletrouble">
+                        Tuss + Murdan
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://characters.scribbleowl.com/rysta">
+                        Rysta
+                     </a>
+                  </li>
+               </ul>
+            </li>
+            <li><a href="https://github.com/jcbbillings" title="My Github profile">
+               Find me on Github</a>
+            </li>
+         </ul>
+      </nav>
+   </header>
+   <div id="gameboard">
+   <footer>
+      <p>Code, images, and content copyright (c) Jessica Billings 2013<p>
+      <p>Like what you see? <a href="https://github.com/jcbbillings">
+         Contact me on Github</a> for coding and website design.</p>
+   </footer>
+</body>
+</html>
