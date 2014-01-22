@@ -1,56 +1,191 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-   <title>ScribbleOwl Creative - Pick your poison</title>
-   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.10.0/build/cssreset/cssreset-min.css">
-   <link rel="stylesheet" type="text/css" href="css/style.css">
-   <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-   <script type="text/javascript" src="js/play.js">
+    <title>ScribbleOwl</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-   <script type="text/javascript">
-      $(function() {
-         playGame(false);
-         $("#rp_menu").hover(
-            function() {
-               $("#rp_sub").show();
-            },
-            function() {
-               $("#rp_sub").hide();
-            });
-      });
-   </script>
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <link rel="stylesheet" href="css/main.min.css" media="all" />
 </head>
 <body>
-   <header>
-      <h1><a href="http://www.scribbleowl.com">Scribble Owl Creations</a></h1>
-      <nav>
-         <ul>
-            <li class="border"><a href="#">Annotated Portfolio</a></li>
-            <li class="border"><a href="#" style="color:#eeeedd">HT Log Cleaner</a></li>
-            <li class="border" id="rp_menu">Roleplay Blogs
-               <ul id="rp_sub">
-                  <li>
-                     <a href="http://characters.scribbleowl.com/doubletrouble">
-                        Tuss + Murdan
-                     </a>
-                  </li>
-                  <li>
-                     <a href="http://characters.scribbleowl.com/rysta">
-                        Rysta
-                     </a>
-                  </li>
-               </ul>
-            </li>
-            <li><a href="https://github.com/jcbbillings" title="My Github profile">
-               Find me on Github</a>
-            </li>
-         </ul>
-      </nav>
-   </header>
-   <div id="gameboard">
-   <footer>
-      <p>Code, images, and content copyright (c) Jessica Billings 2013<p>
-      <p>Like what you see? <a href="https://github.com/jcbbillings">
-         Contact me on Github</a> for coding and website design.</p>
-   </footer>
+    <header>
+        <section id="masthead">
+                
+        </section>
+        <section id="navigation">
+            <div class="container">
+                <h1><a href="#">ScribbleOwl.</a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="#masthead" class="current">Home</a></li>
+                        <li><a href="#welcome">About</a></li>
+                        <li><a href="#expertise">Expertise</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
+    <section id="welcome">
+        <div class="container">
+            <h2>Welcome</h2>
+            <p>Sed ultrices <a href="#">facilisis nunc</a>, eu vulputate purus ultrices eu. In pretium in odio nec rutrum. Curabitur faucibus nec ligula nec sollicitudin. Proin enim diam, egestas sit amet nunc et, consectetur gravida diam.</p>
+        </div>
+    </section>
+    <section id="expertise">
+        <div class="container">
+            <h2>Expertise</h2>
+            <div class="container inner">
+                <div class="col">
+                    <canvas id=""></canvas>
+                    <p>CSS</p>
+                </div>
+                <div class="col">
+                    <canvas id="Canvas1"></canvas>
+                    <p>HTML</p>
+                </div>
+                <div class="col">
+                    <canvas id="Canvas2"></canvas>
+                    <p>JavaScript</p>
+                </div>
+                <div class="col">
+                    <canvas id="Canvas3"></canvas>
+                    <p>Awesomeness</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <blockquote>Fusce et enim laoreet, lobortis nisl ut, cursus nisl. Phasellus at laoreet nisl. Nulla rutrum lobortis bibendum. Sed commodo iaculis nunc, non feugiat erat pretium ut. Nullam convallis dapibus diam, sagittis porttitor magna egestas quis. Fusce.
+                <cite>Jane Joe, Microsoft</cite>
+            </blockquote>
+            <ol>
+                <li><a href="#" class="active">1</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">1</a></li>
+            </ol>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="container inner">
+                <div class="col">
+                    <img src="img/owl-sketch-pre.jpg" />
+                    <div class="hover">
+                        <div class="hoverInner">
+                            <h3>Item One</h3>
+                            <p>Brief description</p>
+                            <div class="cta">View</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/owl-sketch-pre.jpg" />
+                    <div class="hover">
+                        <div class="hoverInner">
+                            <h3>Item Two</h3>
+                            <p>Morbi convallis</p>
+                            <div class="cta">View</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/owl-sketch-pre.jpg" />
+                    <div class="hover">
+                        <div class="hoverInner">
+                            <h3>Item Three</h3>
+                            <p>Elit eu mollis posuere</p>
+                            <div class="cta">View</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/owl-sketch-pre.jpg" />
+                    <div class="hover">
+                        <div class="hoverInner">
+                            <h3>Item Four</h3>
+                            <p>Velit metus auctor lectus</p>
+                            <div class="cta">View</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/owl-sketch-pre.jpg" />
+                    <div class="hover">
+                        <div class="hoverInner">
+                            <h3>Item Five</h3>
+                            <p>Vel sodales</p>
+                            <div class="cta">View</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/owl-sketch-pre.jpg" />
+                    <div class="hover">
+                        <div class="hoverInner">
+                            <h3>Item Six</h3>
+                            <p>Ante est non diam</p>
+                            <div class="cta">View</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form name="contactForm" id="contactForm" action="" method="post">
+                <div class="col">
+                    <div class="textfield">
+                        <label for="name">Name</label>
+                        <input name="name" id="name" type="text" />
+                    </div>
+                    <div class="textfield">
+                        <label for="email">Email</label>
+                        <input name="email" id="email" type="email" />
+                    </div>
+                    <div class="textfield">
+                        <label for="phone">Phone</label>
+                        <input name="phone" id="phone" type="tel" />
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="textarea">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="6" cols="60"></textarea>
+                    </div>
+                    <div>
+                        <button id="submit" type="submit" name="submit">Send Message</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div id="copyright">&copy; 2014 Jessica Billings &bull; All rights reserved.</div>
+            <ul id="social">
+                <li><a href="#" class="behance">Behance</a></li>
+                <!--<li><a href="#" class="dribbble">Dribbble</a></li>-->
+                <!--<li><a href="#" class="facebook">Facebook</a></li>-->
+                <li><a href="#" class="github">GitHub</a></li>
+                <!--<li><a href="#" class="googleplus">Google+</a></li>-->
+                <li><a href="#" class="linkedin">LinkedIn</a></li>
+                <!--<li><a href="#" class="twitter">Twitter</a></li>-->
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
